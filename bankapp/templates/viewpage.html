@@ -1,0 +1,24 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<h2>Welcome Aboard</h2>
+<form action="register" method="post">{%csrf_token%}
+  <div class="container">
+    <label><b>name</b></label>
+    <input type="text" name="name" required><br>
+
+    <label><b>email</b></label>
+    <input type="text" name="email" required><br>
+
+    <label><b>Phone</b></label>
+    <input type="text" name="Phone" required><br>
+    <div class="clearfix">
+      <input type="submit" value="register"><br>
+    </div>
+  </div>
+</form>
+<a href="Home">Home</a>
+</body>
+</html>
